@@ -1,0 +1,5 @@
+1. Single Torpedo launch fails, because TorpedoStore 1 is not empty, but fails to fire.
+2. Single Torpedo launch success, because TorpedoStore 1 is empty, and TorpedoStore 2 is not Empty and fires.
+3. Both TorpedoStores are empty, fire fails, but fire is not called.
+4. TorpedoStore1 is empty, ALL firing mode fails.
+5. TorpedoStore2 is empty, ALL firing mode fails.
